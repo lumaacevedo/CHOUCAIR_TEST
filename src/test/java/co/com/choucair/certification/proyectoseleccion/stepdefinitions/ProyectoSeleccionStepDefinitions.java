@@ -16,7 +16,7 @@ public class ProyectoSeleccionStepDefinitions {
     }
     @Given("^that Luisa wants to register$")
     public void thatLuisaWantsToRegister() {
-        OnStage.theActorCalled("Luisa").wasAbleTo(OpenUp.thePage(), Login.onThePage());
+        OnStage.theActorCalled("Luisa").wasAbleTo(OpenUp.thePage(), Login.onThePage(), (Login.onThePage()));
 
     }
     @When("^He proceeds to click on the registration option \\(JOIN TODAY\\)$")
