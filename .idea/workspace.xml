@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e30f9f12-93b4-44f5-9ebc-daa540fde1ef" name="Changes" comment="Ajustes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyecyoseleccion/questions/Answer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyecyoseleccion/tasks/AccountRegistration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyecyoseleccion/userinterface/ProyectoSeleccionAccountRegistration.java" afterDir="false" />
+    <list default="true" id="e30f9f12-93b4-44f5-9ebc-daa540fde1ef" name="Changes" comment="Ajustes faltantes a las acciones">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyecyoseleccion/tasks/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyecyoseleccion/tasks/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyecyoseleccion/tasks/AccountRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyecyoseleccion/tasks/AccountRegistration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyecyoseleccion/userinterface/ProyectoSeleccionAccountRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyecyoseleccion/userinterface/ProyectoSeleccionAccountRegistration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyecyoseleccion/userinterface/ProyectoSeleccionLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyecyoseleccion/userinterface/ProyectoSeleccionLoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/choucair/certification/proyectoseleccion/stepdefinitions/ProyectoSeleccionStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/choucair/certification/proyectoseleccion/stepdefinitions/ProyectoSeleccionStepDefinitions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668182320877</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Ajustes faltantes a las acciones">
+      <created>1668568339562</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668568339562</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,6 +165,7 @@
     <MESSAGE value="Proyecto de seleccion" />
     <MESSAGE value="Proyecto de seleccion ajuste" />
     <MESSAGE value="Ajustes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajustes" />
+    <MESSAGE value="Ajustes faltantes a las acciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajustes faltantes a las acciones" />
   </component>
 </project>
