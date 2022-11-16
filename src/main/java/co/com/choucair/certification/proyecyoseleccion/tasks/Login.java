@@ -16,10 +16,7 @@ public class Login implements Task {
 
     @Override
     public <T extends Actor> void performAs( T actor){
-        actor.attemptsTo(Click.on(ProyectoSeleccionLoginPage.LOGIN_BUTTON),
-                Enter.theValue("IngresaTuNombre").into(ProyectoSeleccionLoginPage.FIRST_NAME),
-                Enter.theValue("IngresaTuApellido").into(ProyectoSeleccionLoginPage.LAST_NAME),
-                Click.on(ProyectoSeleccionLoginPage.NEXT_DEVICES_BUTTON)
+        actor.attemptsTo(Click.on(ProyectoSeleccionLoginPage.LOGIN_BUTTON)
         );
 
     }

@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e30f9f12-93b4-44f5-9ebc-daa540fde1ef" name="Changes" comment="Proyecto de seleccion ajuste">
+    <list default="true" id="e30f9f12-93b4-44f5-9ebc-daa540fde1ef" name="Changes" comment="Ajustes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyecyoseleccion/questions/Answer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyecyoseleccion/tasks/AccountRegistration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyecyoseleccion/userinterface/ProyectoSeleccionAccountRegistration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyecyoseleccion/tasks/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyecyoseleccion/tasks/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyecyoseleccion/userinterface/ProyectoSeleccionLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyecyoseleccion/userinterface/ProyectoSeleccionLoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/co/com/choucair/certification/proyectoseleccion/stepdefinitions/ProyectoSeleccionStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/choucair/certification/proyectoseleccion/stepdefinitions/ProyectoSeleccionStepDefinitions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +36,10 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/serenity.properties" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyecyoseleccion/questions/Answer.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyecyoseleccion/tasks/AccountRegistration.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyecyoseleccion/tasks/Login.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyecyoseleccion/userinterface/ProyectoSeleccionAccountRegistration.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyecyoseleccion/userinterface/ProyectoSeleccionLoginPage.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyecyoseleccion/userinterface/ProyectoSeleccionPage.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/test/java/co/com/choucair/certification/proyectoseleccion/runners/RunnerTags.java" root0="SKIP_INSPECTION" />
@@ -59,8 +66,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="co.com.choucair.certification.proyecyoseleccion.userinterface" />
+      <recent name="co.com.choucair.certification.proyecyoseleccion.questions" />
       <recent name="co.com.choucair.certification.proyecyoseleccion.tasks" />
+      <recent name="co.com.choucair.certification.proyecyoseleccion.userinterface" />
       <recent name="tasks" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -128,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668140804274</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Ajustes">
+      <created>1668182320877</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668182320877</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,6 +160,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Proyecto de seleccion" />
     <MESSAGE value="Proyecto de seleccion ajuste" />
-    <option name="LAST_COMMIT_MESSAGE" value="Proyecto de seleccion ajuste" />
+    <MESSAGE value="Ajustes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajustes" />
   </component>
 </project>
