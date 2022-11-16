@@ -8,6 +8,7 @@ import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.actions.Open;
+import org.jetbrains.annotations.NotNull;
 
 public class Login implements Task {
     public static Login onThePage() {
@@ -15,9 +16,8 @@ public class Login implements Task {
     }
 
     @Override
-    public <T extends Actor> void performAs( T actor){
+    public <T extends Actor> void performAs(@NotNull T actor){
         actor.attemptsTo(Click.on(ProyectoSeleccionLoginPage.LOGIN_BUTTON)
         );
-
     }
 }

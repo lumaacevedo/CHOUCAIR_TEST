@@ -10,7 +10,6 @@ import org.jetbrains.annotations.NotNull;
 
 public class OpenUp implements Task {
     private final ProyectoSeleccionPage proyectoseleccionPage;
-
     public OpenUp(ProyectoSeleccionPage proyectoseleccionPage) {
         this.proyectoseleccionPage = proyectoseleccionPage;
     }

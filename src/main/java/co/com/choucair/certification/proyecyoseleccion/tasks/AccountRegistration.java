@@ -7,6 +7,7 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
+import org.jetbrains.annotations.NotNull;
 
 public class AccountRegistration implements Task {
     public static AccountRegistration onThePage(){
@@ -14,7 +15,7 @@ public class AccountRegistration implements Task {
     }
 
     @Override
-    public <T extends Actor> void performAs(T actor){
+    public <T extends Actor> void performAs(@NotNull T actor){
         actor.attemptsTo(Enter.theValue("WriteYourName").into(ProyectoSeleccionAccountRegistration.FIRST_NAME),
                 Enter.theValue("WriteYourLastName").into(ProyectoSeleccionAccountRegistration.LAST_NAME),
                 Enter.theValue("WriteYourEmail").into(ProyectoSeleccionAccountRegistration.EMAIL_ADRESS),

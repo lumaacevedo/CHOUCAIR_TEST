@@ -7,3 +7,4 @@ Feature: Selection Test
      Given that Luisa wants to register
       When He proceeds to click on the registration option (JOIN TODAY)
       Then He fills out the form in order to create a new Username.
+

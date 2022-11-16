@@ -18,7 +18,9 @@ public class Answer implements Question<Boolean> {
     @Override
     public Boolean answeredBy(Actor actor) {
         boolean result;
+
         String completeRegister= Text.of(ProyectoSeleccionAccountRegistration.CONFIRM_PASSWORD).viewedBy(actor).asString();
+
         if (question.equals(completeRegister)){
             result = true;
         }else {

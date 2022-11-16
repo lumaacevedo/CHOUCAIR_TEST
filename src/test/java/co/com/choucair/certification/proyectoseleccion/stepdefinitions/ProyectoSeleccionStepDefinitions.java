@@ -18,16 +18,19 @@ public class ProyectoSeleccionStepDefinitions {
     public void setStage(){
         OnStage.setTheStage(new OnlineCast());
     }
+
     @Given("^that Luisa wants to register$")
     public void thatLuisaWantsToRegister() {
         OnStage.theActorCalled("Luisa").wasAbleTo(OpenUp.thePage(), (Login.onThePage()));
 
     }
+
     @When("^He proceeds to click on the registration option \\(JOIN TODAY\\)$")
     public void heProceedsToClickOnTheRegistrationOptionJOINTODAY() {
         OnStage.theActorCalled("Luisa").attemptsTo(OpenUp.thePage(),(AccountRegistration.onThePage()));
 
     }
+
     @Then("^He fills out the form in order to create a new Username\\.$")
     public void heFillsOutTheFormInOrderToCreateANewUsername(String question) {
         OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(Answer.toThe(question)));

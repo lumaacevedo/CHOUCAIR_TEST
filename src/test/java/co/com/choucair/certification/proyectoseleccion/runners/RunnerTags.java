@@ -10,6 +10,7 @@ import org.junit.runner.RunWith;
                               tags = "@stories",
                               glue = "co.com.choucair.certification.proyectoseleccion.stepdefinitions",
                               snippets = SnippetType.CAMELCASE)
+
 public class RunnerTags {
 
 }
