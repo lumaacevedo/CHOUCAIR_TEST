@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e30f9f12-93b4-44f5-9ebc-daa540fde1ef" name="Changes" comment="Ajustes faltantes a las acciones tercera pagina">
+    <list default="true" id="e30f9f12-93b4-44f5-9ebc-daa540fde1ef" name="Changes" comment="Finalizacion seccion patron Screenplay">
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyecyoseleccion/model/ProyectoSeleccionData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyecyoseleccion/questions/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyecyoseleccion/questions/Answer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyecyoseleccion/tasks/AccountRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyecyoseleccion/tasks/AccountRegistration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyecyoseleccion/tasks/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyecyoseleccion/tasks/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyecyoseleccion/tasks/OpenUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyecyoseleccion/tasks/OpenUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/choucair/certification/proyectoseleccion/runners/RunnerTags.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/choucair/certification/proyectoseleccion/runners/RunnerTags.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/co/com/choucair/certification/proyectoseleccion/stepdefinitions/ProyectoSeleccionStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/choucair/certification/proyectoseleccion/stepdefinitions/ProyectoSeleccionStepDefinitions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/feature/pruebaseleccion.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/feature/pruebaseleccion.feature" afterDir="false" />
     </list>
@@ -37,8 +34,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/serenity.properties" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyecyoseleccion/model/ProyectoSeleccionData.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyecyoseleccion/questions/Answer.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyecyoseleccion/tasks/AccountRegistration.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyecyoseleccion/tasks/AccountRegistration.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyecyoseleccion/tasks/Login.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyecyoseleccion/userinterface/ProyectoSeleccionAccountRegistration.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/co/com/choucair/certification/proyecyoseleccion/userinterface/ProyectoSeleccionLoginPage.java" root0="SKIP_INSPECTION" />
@@ -56,15 +54,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/Luisa/Documents/GitHub/CHOUCAIR/co.com.choucair.certification.proyectoseleccion/src/test/java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_directory_selection": "C:/Users/Luisa/Documents/GitHub/CHOUCAIR/co.com.choucair.certification.proyectoseleccion/src/test/java",
+    "settings.editor.selected.configurable": "copyright"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="co.com.choucair.certification.proyecyoseleccion.questions" />
@@ -158,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668569006311</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Finalizacion seccion patron Screenplay">
+      <created>1668569514385</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668569514385</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,6 +183,10 @@
     <MESSAGE value="Ajustes" />
     <MESSAGE value="Ajustes faltantes a las acciones" />
     <MESSAGE value="Ajustes faltantes a las acciones tercera pagina" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajustes faltantes a las acciones tercera pagina" />
+    <MESSAGE value="Finalizacion seccion patron Screenplay" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalizacion seccion patron Screenplay" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/co_com_choucair_certification_proyectoseleccion$RunnerTags.ic" NAME="RunnerTags Coverage Results" MODIFIED="1668648409200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
